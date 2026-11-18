@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RISE: Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --bg:#fff8f1; --fg:#14142b; --muted:#555a73; --accent:#2e2a8c; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#121426; --fg:#f0efff; --muted:#a9a6c9; --accent:#b6a7fa; --card:#1b1d38; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 -apple-system, system-ui, "Segoe UI", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  nav { display:flex; gap:20px; margin-bottom: 28px; font-weight:600; }
+  a { color: var(--accent); }
+  h1 { font-size: 2rem; line-height:1.2; } h2 { margin-top: 2rem; font-size: 1.3rem; }
+  code { background: var(--card); padding: 1px 6px; border-radius: 6px; }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../">RISE</a><a href="../privacy/">Privacy</a><a href="../support/">Support</a></nav>
+<h1>RISE Privacy Policy</h1>
+<p>Last updated: 2026-11-18</p>
+<h2>In one paragraph</h2>
+<p>RISE has no account, no server and no analytics. Your alarms and your wake-up history stay on your phone. RISE does not send them anywhere and does not make network requests of its own.</p>
+<h2>What RISE stores, and where</h2>
+<p>All of it stays on your device, in the app's private storage:</p>
+<ul><li><strong>Your alarms:</strong> time, days, name, snooze length and count, the sound, volume and vibration you chose, and the wake-up mission you chose.</li><li><strong>A QR mission's code:</strong> only a fingerprint (a SHA-256 hash) of the code you registered. The code itself is not stored, and the fingerprint cannot be turned back into it.</li><li><strong>Your wake-up history:</strong> when an alarm rang and how it ended (stopped, snoozed, mission done, or emergency stop). The last 200 entries are kept. This is a record of what happened on the phone, not proof that you were awake.</li><li><strong>Settings:</strong> language, theme, whether you finished the first-run screens, and whether RISE Pro is active.</li></ul>
+<p>Android also keeps your alarms in device-protected storage so they can ring after a restart before you unlock the phone. Deleting the app deletes all of it.</p>
+<h2>What RISE does not do</h2>
+<ul><li>It does not collect, sell or share personal data.</li><li>It does not use advertising identifiers, analytics, crash-reporting or tracking services.</li><li>It does not read your contacts, location, photos or microphone. It uses the camera <strong>only</strong> when you scan a code for the QR mission (to choose the code, and when the alarm asks for it). Nothing the camera sees is recorded, saved or sent anywhere; on iPhone the scan runs inside RISE, on Android in Google's code scanner, which reads the image on the phone.</li><li>It has no account and no sign-in.</li></ul>
+<h2>Permissions, and why</h2>
+<ul><li><strong>Alarms / exact alarms (Android <code>USE_EXACT_ALARM</code>, iOS alarm permission):</strong> to ring at the time you set, even when the app is closed.</li><li><strong>Notifications (Android):</strong> an alarm rings through a notification, so without it the alarm cannot ring.</li><li><strong>Full-screen alerts (Android):</strong> to show the ringing screen over the lock screen.</li><li><strong>Run at start-up and keep awake (Android):</strong> to set your alarms again after a restart and to keep ringing.</li><li><strong>Vibration:</strong> the alarm vibrates.</li><li><strong>Camera (QR mission only):</strong> to read the code you registered. RISE asks when you first scan. On Android no camera permission is requested by RISE: Google's code scanner (Google Play services) shows its own scanner.</li></ul>
+<h2>Purchases</h2>
+<p>RISE Pro is a one-time purchase made through Google Play or the App Store. The store handles the payment and tells RISE whether Pro is active. RISE does not see your payment details and has no server or account for it. On iPhone the purchase uses Apple's StoreKit; on Android purchases are not available yet. RISE keeps on your phone only the store's last confirmed answer ("Pro" or not), so Pro keeps working offline. "Restore Purchases" asks the App Store again.</p>
+<h2>Children</h2>
+<p>RISE is not directed at children and collects no data from anyone.</p>
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will be published at the same address with a new date. Contact: <a href="mailto:palozinski@gmail.com">palozinski@gmail.com</a></p>
+<p>Controller: Paweł Łoziński</p>
+<footer>RISE: Alarm &amp; Wake Up Missions</footer>
+</main>
+</body>
+</html>
